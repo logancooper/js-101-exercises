@@ -3,3 +3,13 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+
+function finalFunction(number)
+{
+    const arr = []
+    for (i = 0; i < number; i++)
+    {
+        arr.push("hello");
+    }
+    return arr;
+}
